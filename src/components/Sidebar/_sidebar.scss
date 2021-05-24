@@ -1,0 +1,23 @@
+.sidebar {
+    margin: 0 auto;
+    width: 90%;
+    grid-area: sidebar;
+}
+
+.friendsList {
+    border-radius: 2px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-around;
+}
+
+.friend {
+    margin-right: 5px;
+    font-size: 12px;
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 30px;
+        border-radius: 90px;
+    }
+}

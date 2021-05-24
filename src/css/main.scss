@@ -1,0 +1,39 @@
+.app-wrapper {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav main";
+    grid-template-rows: 60px  90vh;
+    grid-template-columns: 1fr 7fr;
+    max-height: 100vh;
+    /* grid-gap: 10px; */
+
+    &__main-content {
+      position: relative;
+      grid-area: main;
+      background-color: #fff;
+      overflow-y: auto;
+      max-height: 100%;
+    }
+}
+
+.btnReset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+  
+
+@import '../components/Header/header';
+@import '../components/Nav/nav';
+@import '../components/Profile/profile';
+@import '../components/Dialogs/dialogs';  
+@import '../components/Sidebar/sidebar';
+@import '../components/Users/users';
+@import '../components/Users/User/user';
+@import '../components/common/FormsControls/formsControls';
+@import '../components/Login/login';
+@import '../components/common/Pagination/pagination';
+@import '../components/common/Preloader/preloader';

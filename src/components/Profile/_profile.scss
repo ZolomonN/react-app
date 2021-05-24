@@ -1,0 +1,45 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+    max-height: 100%;
+    &__img {
+        border: 3px solid #333;
+        border-radius: 90px;
+        max-width: 200px;
+        &Upload {
+            max-width: 115px;
+        }
+    }
+    &__postsBlock {
+        width: 50%; 
+        max-height: 100%;
+        overflow-y: auto;
+    }
+    &__postForm {
+        width: 100%;
+        & textarea {
+            background-color: rgb(240, 240, 240);
+            border-radius: 5px;
+            height: 50px;
+            width: 98%;
+            outline: none;
+            resize: none;
+        }
+    }
+
+
+}
+
+
+.post {
+    margin: 10px 0;
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+    padding: 5px 10px;
+    &__img {
+        max-width: 50px;
+        border-radius: 90px;
+    }
+}

@@ -1,0 +1,22 @@
+.pagination {
+    &__item {
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 5px;
+        margin-right: 5px;
+
+    }
+
+    &__btn {
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 5px;
+        margin-right: 5px;
+    }
+}
+
+.selectedPage {
+    font-weight: bold;
+}

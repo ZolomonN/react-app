@@ -1,0 +1,14 @@
+.user {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    &__photo {
+        width: 50px;
+    }
+    &__subscribeBtn {
+        margin-top: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}

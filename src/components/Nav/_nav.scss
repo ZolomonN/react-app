@@ -1,0 +1,19 @@
+.nav {
+    grid-area: nav;
+    background-color: #333;
+    border-top: 1px solid #fff;
+
+    &__list {
+        list-style-type: none;
+        line-height: 30px;
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+
+        &.active {
+            color: gold;
+        }
+    }
+}
