@@ -62,7 +62,7 @@ export const authAPI = {
 
 export const securityAPI = {
     getCaptchaUrl() {
-        return instanse.delete(`security/get-captcha-url`);
+        return instanse.get(`security/get-captcha-url`);
     }
 };
 
